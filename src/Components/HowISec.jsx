@@ -78,23 +78,25 @@ function HowItWorks() {
     <div className="section_how">
       <img className="how_works_picture" src={howWorks} alt="" />
       <h1 className="text_how">How it works</h1>
-      {steps.map((step, index) => (
-        <div
-          className="block_how_check"
-          key={step.number}
-          ref={(el) => (blockRefs.current[index] = el)}
-          style={{
-            opacity: visibleBlocks[index] ? 1 : 0,
-            transition: "opacity 0.5s ease-in-out",
-          }}
-        >
-          <div className="number-circle">{step.number}</div>
-          <div>
-            <h1>{step.title}</h1>
-            <p>{step.description}</p>
+      <div className="info_how">
+        {steps.map((step, index) => (
+          <div
+            className="block_how_check"
+            key={step.number}
+            ref={(el) => (blockRefs.current[index] = el)}
+            style={{
+              opacity: visibleBlocks[index] ? 1 : 0,
+              transition: "opacity 0.5s ease-in-out",
+            }}
+          >
+            <div className="number-circle">{step.number}</div>
+            <div>
+              <h1>{step.title}</h1>
+              <p>{step.description}</p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
       <div className="block_">
         <img className="img_block" src={forHowWork} alt="" />
       </div>

@@ -938,3 +938,48 @@ body {
     opacity: 0;
   }
 }
+@media (min-width: 1424px) {
+}
+@media (max-width: 1024px) {
+  .floor_main .maine-content {
+    margin: 50px;
+  }
+  .info_how {
+    top: 30px;
+    position: relative;
+    border: none;
+    overflow: auto;
+    max-width: 650px;
+    height: 450px;
+  }
+  .block_how_check {
+    padding: 10px;
+    font-size: 14px;
+    width: auto;
+    height: 110px;
+    top: 0;
+  }
+  .block_how_check p {
+    margin: 0;
+  }
+  .number-circle {
+    font-size: 30px;
+  }
+  .img_block {
+    width: 350px;
+    height: auto;
+    left: 550px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #4caf50;
+  }
+}
+
+@media (min-width: 319px) {
+  body {
+    background-color: #4caf50;
+  }
+}

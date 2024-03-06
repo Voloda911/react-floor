@@ -1,7 +1,7 @@
 {
   "name": "react-floor",
   "version": "0.1.0",
-  "homepage": "https://voloda911.github.io/flor_sell",
+  "homepage": "https://voloda911.github.io/react-floor",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
