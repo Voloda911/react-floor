@@ -152,13 +152,23 @@ function InfoReg() {
   };
 
   const toggleOpen = () => {
-    setOpen((prevOpen) => !prevOpen);
+    if (window.innerWidth <= 1024) {
+      setOpen((prevOpen) => !prevOpen);
+      if (openCall) {
+        setOpenCall(false);
+      }
+    } else {
+      setOpen((prevOpen) => !prevOpen);
+    }
   };
-
   const toggleCall = () => {
-    setOpenCall(!openCall);
+    if (window.innerWidth <= 1024) {
+      setOpenCall(!openCall);
+      if (open) setOpen(false);
+    } else {
+      setOpenCall(!openCall);
+    }
   };
-
   return (
     <div className="info_reg">
       <img className="photo_reg" src={mairImg} alt="" />

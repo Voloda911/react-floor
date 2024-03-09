@@ -88,12 +88,7 @@ function FloorMain() {
     <div className="floor_main">
       <img className="fullscreen-img2" src={instoll} alt="" />
 
-      <div className="animationClass">
-        <div className="header">
-          <h1 className="logotip">hytte</h1>
-          <img src={logo} alt="LOGO" width={90} height={90} />
-        </div>
-      </div>
+      <div className="animationClass"></div>
       <div className="maine-content">
         {" "}
         <h1>Author's projects</h1>

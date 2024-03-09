@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import EcoDarck from "./img/pexels-max-rahubovskiy-6585761 (1).jpg";
 
 import corouselImg1 from "./img/pexels-cocarinne-7260267.jpg";
@@ -74,7 +74,16 @@ function Eco() {
   };
 
   const visibleImage = images[currentStartIndex];
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (!isDragging && scrollContainer.current) {
+        let newScrollPosition = scrollContainer.current.scrollLeft + 1; // Скорость скролла
+        scrollContainer.current.scrollLeft = newScrollPosition;
+      }
+    }, 20); // Регулируйте скорость изменением этого значения
 
+    return () => clearInterval(interval);
+  }, [isDragging]);
   return (
     <div className="eco">
       <img className="ecoPhoto" src={EcoDarck} alt="" />
