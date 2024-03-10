@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/react-floor/static/css/main.29f091d9.chunk.css",
+    "main.js": "/react-floor/static/js/main.11ae23b1.chunk.js",
+    "main.js.map": "/react-floor/static/js/main.11ae23b1.chunk.js.map",
+    "runtime-main.js": "/react-floor/static/js/runtime-main.8f77bd19.js",
+    "runtime-main.js.map": "/react-floor/static/js/runtime-main.8f77bd19.js.map",
+    "static/js/2.5df2721e.chunk.js": "/react-floor/static/js/2.5df2721e.chunk.js",
+    "static/js/2.5df2721e.chunk.js.map": "/react-floor/static/js/2.5df2721e.chunk.js.map",
+    "index.html": "/react-floor/index.html",
+    "precache-manifest.c4b900461477acef874ce49846e12040.js": "/react-floor/precache-manifest.c4b900461477acef874ce49846e12040.js",
+    "service-worker.js": "/react-floor/service-worker.js",
+    "static/css/main.29f091d9.chunk.css.map": "/react-floor/static/css/main.29f091d9.chunk.css.map",
+    "static/js/2.5df2721e.chunk.js.LICENSE.txt": "/react-floor/static/js/2.5df2721e.chunk.js.LICENSE.txt",
+    "static/media/LOGO1.0f51300e.png": "/react-floor/static/media/LOGO1.0f51300e.png",
+    "static/media/forHowWorks.f5cecb6e.jpg": "/react-floor/static/media/forHowWorks.f5cecb6e.jpg",
+    "static/media/forTest.8b6e51b2.jpg": "/react-floor/static/media/forTest.8b6e51b2.jpg",
+    "static/media/howWokrs.c5ddbfc2.jpg": "/react-floor/static/media/howWokrs.c5ddbfc2.jpg",
+    "static/media/instoll.9410d2da.jpg": "/react-floor/static/media/instoll.9410d2da.jpg",
+    "static/media/pexels-cocarinne-7260267.33b2fec4.jpg": "/react-floor/static/media/pexels-cocarinne-7260267.33b2fec4.jpg",
+    "static/media/pexels-cottonbro-studio-7492882.53fa37c3.jpg": "/react-floor/static/media/pexels-cottonbro-studio-7492882.53fa37c3.jpg",
+    "static/media/pexels-digital-buggu-218564.e9dff125.jpg": "/react-floor/static/media/pexels-digital-buggu-218564.e9dff125.jpg",
+    "static/media/pexels-jill-burrow-6681856.e78f4d80.jpg": "/react-floor/static/media/pexels-jill-burrow-6681856.e78f4d80.jpg",
+    "static/media/pexels-max-rahubovskiy-6447388.c0aba344.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-6447388.c0aba344.jpg",
+    "static/media/pexels-max-rahubovskiy-6447390.8e1aadd4.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-6447390.8e1aadd4.jpg",
+    "static/media/pexels-max-rahubovskiy-6492397.9d329de9.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-6492397.9d329de9.jpg",
+    "static/media/pexels-max-rahubovskiy-6585761 (1).dc131b5e.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-6585761 (1).dc131b5e.jpg",
+    "static/media/pexels-max-rahubovskiy-6636293.bd5f2352.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-6636293.bd5f2352.jpg",
+    "static/media/pexels-max-rahubovskiy-7018824.9849e95a.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-7018824.9849e95a.jpg",
+    "static/media/pexels-max-rahubovskiy-7031723.736c6db6.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-7031723.736c6db6.jpg",
+    "static/media/pexels-max-rahubovskiy-7045844.a414d684.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-7045844.a414d684.jpg",
+    "static/media/pexels-max-rahubovskiy-7214467.83bb2dda.jpg": "/react-floor/static/media/pexels-max-rahubovskiy-7214467.83bb2dda.jpg",
+    "static/media/pexels-rachel-claire-4846106.89b2bb8e.jpg": "/react-floor/static/media/pexels-rachel-claire-4846106.89b2bb8e.jpg",
+    "static/media/pexels-rachel-claire-4993081.f605434c.jpg": "/react-floor/static/media/pexels-rachel-claire-4993081.f605434c.jpg",
+    "static/media/pexels-skylar-kang-6046819.59e70804.jpg": "/react-floor/static/media/pexels-skylar-kang-6046819.59e70804.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f77bd19.js",
+    "static/js/2.5df2721e.chunk.js",
+    "static/css/main.29f091d9.chunk.css",
+    "static/js/main.11ae23b1.chunk.js"
+  ]
+}
