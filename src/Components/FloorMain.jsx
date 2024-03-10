@@ -33,6 +33,8 @@ function FloorMain() {
   useEffect(() => {
     if (isInfoVisible) {
       document.body.style.overflow = "hidden";
+    } else if (showInfo) {
+      document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
     }
@@ -168,18 +170,22 @@ function FloorMain() {
       />
 
       <div className={`element_block ${anima ? "animate" : ""}`}>
-        <h1>Frequently Asked Questions</h1>
         <div className="question_sec">
+          <h1>Frequently Asked Questions</h1>
           {issues.map((issue, index) => (
             <div key={index}>
               <h2
-                className="question_to"
+                className={`question_to ${openedAnswers[index] ? "col_h" : ""}`}
                 onClick={() => toggleParagraph(index)}
               >
                 {issue.questions}
               </h2>
               {openedAnswers[index] && (
-                <p className={`answers ${openedAnswers ? "animate_p" : ""}`}>
+                <p
+                  className={`answers ${
+                    openedAnswers[index] ? "animate_p" : ""
+                  }`}
+                >
                   {issue.answer}
                 </p>
               )}

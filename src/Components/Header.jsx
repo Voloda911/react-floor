@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -28,7 +30,12 @@ export default function Header() {
     >
       <div className="header_cont">
         <h3 className="customClass">hette</h3>
-        <h3 className="_contact">208-202-8305</h3>
+        <h3 className="_contact">
+          <span>
+            <FontAwesomeIcon icon={faPhone} />
+          </span>
+          208-202-8305
+        </h3>
       </div>
     </div>
   );

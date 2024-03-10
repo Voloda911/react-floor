@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
 import mairImg from "./img/forTest.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
 
 function InfoReg() {
   const [open, setOpen] = useState(false);
@@ -152,7 +158,7 @@ function InfoReg() {
   };
 
   const toggleOpen = () => {
-    if (window.innerWidth <= 1024) {
+    if (window.innerWidth <= 2024) {
       setOpen((prevOpen) => !prevOpen);
       if (openCall) {
         setOpenCall(false);
@@ -162,7 +168,7 @@ function InfoReg() {
     }
   };
   const toggleCall = () => {
-    if (window.innerWidth <= 1024) {
+    if (window.innerWidth <= 2024) {
       setOpenCall(!openCall);
       if (open) setOpen(false);
     } else {
@@ -309,6 +315,38 @@ function InfoReg() {
               send{" "}
             </button>
           </div>{" "}
+        </div>
+      </div>
+      {/* fooser */}
+      <div className="footer">
+        <div className="foot_address">
+          <p>545 NW 26th Street, Miami,FL 33127</p>
+        </div>
+        <div className="network">
+          <a
+            href="https://www.linkedin.com/in/volodymyr-siuryk-a837692b4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              className="icon_"
+              target="_blank"
+              icon={faLinkedinIn}
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=100090156600273"
+          >
+            <FontAwesomeIcon className="icon_" icon={faFacebookF} />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/vv.siuryk/?next=%2F"
+          >
+            {" "}
+            <FontAwesomeIcon className="icon_" icon={faInstagram} />
+          </a>
         </div>
       </div>
     </div>
