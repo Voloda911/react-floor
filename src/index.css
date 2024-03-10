@@ -220,7 +220,8 @@ body {
 }
 .floor_main .maine-content {
   display: flex;
-  width: 50%;
+  overflow: auto;
+  width: 100%;
   position: relative;
   top: 40%;
   flex-direction: column;
@@ -1049,7 +1050,10 @@ body {
     font-size: 17px;
   }
 }
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 372px) and (max-width: 750px) {
+  .header_cont {
+    padding: 10px;
+  }
   .fullscreen-img2 {
     width: 100%;
   }
@@ -1060,6 +1064,7 @@ body {
   }
   .floor_main .maine-content {
     width: 90%;
+    bottom: 40px;
   }
   .p_ {
     width: 90%;
@@ -1133,7 +1138,7 @@ body {
     width: 100%;
   }
   .btn_v4 {
-    width: 200px;
+    width: 400px;
   }
   .block_project {
     width: 90%;
@@ -1142,11 +1147,25 @@ body {
     width: 300px;
   }
 }
-@media (max-width: 320px) {
-  .info_how {
-    width: 270px;
+@media (min-width: 200px) and (max-width: 372px) {
+  .header_cont {
+    padding: 10px;
   }
-
+  .p_ {
+    width: 100%;
+  }
+  .info_how {
+    width: 100%;
+  }
+  .img_block {
+    width: 30%;
+  }
+  .block_project div {
+    width: 6em;
+  }
+  .block_project {
+    margin: 15px 0;
+  }
   .eco button {
     display: none;
   }
@@ -1155,5 +1174,29 @@ body {
   }
   .reg_content {
     top: 45%;
+  }
+  .img_block {
+    left: 0;
+  }
+  .text_how {
+    font-size: 16px;
+    width: 200px;
+  }
+  .block_how_check.animate {
+    width: 200px;
+  }
+  .btn_v4 {
+    width: 100%;
+  }
+  .floor_main .maine-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .reg_content input {
+    width: 260px;
+  }
+  .reg_content button {
+    font-size: 16px;
   }
 }
