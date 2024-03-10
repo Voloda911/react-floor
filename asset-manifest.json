@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-floor/static/css/main.7ec5e967.chunk.css",
-    "main.js": "/react-floor/static/js/main.6a42bd4f.chunk.js",
-    "main.js.map": "/react-floor/static/js/main.6a42bd4f.chunk.js.map",
+    "main.css": "/react-floor/static/css/main.739f2ea9.chunk.css",
+    "main.js": "/react-floor/static/js/main.97b961b5.chunk.js",
+    "main.js.map": "/react-floor/static/js/main.97b961b5.chunk.js.map",
     "runtime-main.js": "/react-floor/static/js/runtime-main.8f77bd19.js",
     "runtime-main.js.map": "/react-floor/static/js/runtime-main.8f77bd19.js.map",
-    "static/js/2.82b66d83.chunk.js": "/react-floor/static/js/2.82b66d83.chunk.js",
-    "static/js/2.82b66d83.chunk.js.map": "/react-floor/static/js/2.82b66d83.chunk.js.map",
+    "static/css/2.576ce916.chunk.css": "/react-floor/static/css/2.576ce916.chunk.css",
+    "static/js/2.d2bce44f.chunk.js": "/react-floor/static/js/2.d2bce44f.chunk.js",
+    "static/js/2.d2bce44f.chunk.js.map": "/react-floor/static/js/2.d2bce44f.chunk.js.map",
     "index.html": "/react-floor/index.html",
-    "precache-manifest.3cd56cfdca2ee47be2eb289ac85fe7f0.js": "/react-floor/precache-manifest.3cd56cfdca2ee47be2eb289ac85fe7f0.js",
+    "precache-manifest.2926d188867f395e28eeb211fbac1e58.js": "/react-floor/precache-manifest.2926d188867f395e28eeb211fbac1e58.js",
     "service-worker.js": "/react-floor/service-worker.js",
-    "static/css/main.7ec5e967.chunk.css.map": "/react-floor/static/css/main.7ec5e967.chunk.css.map",
-    "static/js/2.82b66d83.chunk.js.LICENSE.txt": "/react-floor/static/js/2.82b66d83.chunk.js.LICENSE.txt",
+    "static/css/2.576ce916.chunk.css.map": "/react-floor/static/css/2.576ce916.chunk.css.map",
+    "static/css/main.739f2ea9.chunk.css.map": "/react-floor/static/css/main.739f2ea9.chunk.css.map",
+    "static/js/2.d2bce44f.chunk.js.LICENSE.txt": "/react-floor/static/js/2.d2bce44f.chunk.js.LICENSE.txt",
     "static/media/LOGO1.0f51300e.png": "/react-floor/static/media/LOGO1.0f51300e.png",
     "static/media/forHowWorks.f5cecb6e.jpg": "/react-floor/static/media/forHowWorks.f5cecb6e.jpg",
     "static/media/forTest.8b6e51b2.jpg": "/react-floor/static/media/forTest.8b6e51b2.jpg",
@@ -36,8 +38,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f77bd19.js",
-    "static/js/2.82b66d83.chunk.js",
-    "static/css/main.7ec5e967.chunk.css",
-    "static/js/main.6a42bd4f.chunk.js"
+    "static/css/2.576ce916.chunk.css",
+    "static/js/2.d2bce44f.chunk.js",
+    "static/css/main.739f2ea9.chunk.css",
+    "static/js/main.97b961b5.chunk.js"
   ]
 }
