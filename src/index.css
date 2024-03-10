@@ -252,8 +252,7 @@ body {
 .element_block {
   top: 0;
   left: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
   background-color: rgb(1, 0, 0, 0.5);
   width: 100vw;
   height: 100vh;
@@ -276,6 +275,8 @@ body {
   background-color: rgba(29, 25, 25, 1);
   padding: 4em 4em;
   color: rgb(199, 199, 96);
+  overflow: auto;
+  scrollbar-width: none;
 }
 .col_h {
   color: #f1f1f1;
@@ -560,6 +561,9 @@ body {
   object-position: center bottom;
   top: -60px;
 }
+.corousel img:first-child {
+  margin-left: 0;
+}
 .all-picture {
   display: flex;
   flex-direction: row;
@@ -575,15 +579,14 @@ body {
   cursor: grabbing;
   cursor: -webkit-grabbing;
 }
-.all-picture img {
-  width: calc(100% / 2);
+.all-picture span img {
+  /* width: calc(100% / 2); */
+  width: 200px;
   height: 150px;
   cursor: pointer;
   object-fit: cover;
 }
-.corousel img:first-child {
-  margin-left: 0;
-}
+
 .slider_imager button {
   position: absolute;
   top: 50%;
@@ -1137,6 +1140,9 @@ body {
   .question_sec h2 {
     font-size: 17px;
   }
+  .element_block h1::before {
+    top: 50px;
+  }
 }
 @media (min-width: 372px) and (max-width: 750px) {
   .header_cont {
@@ -1286,5 +1292,8 @@ body {
   }
   .reg_content button {
     font-size: 16px;
+  }
+  .question_sec {
+    padding: 10px;
   }
 }

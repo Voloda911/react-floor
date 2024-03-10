@@ -16,7 +16,8 @@ import corouselImg14 from "./img/pexels-max-rahubovskiy-7214467.jpg";
 import corouselImg15 from "./img/pexels-skylar-kang-6046819.jpg";
 import corouselImg16 from "./img/pexels-max-rahubovskiy-7045844.jpg";
 import corouselImg18 from "./img/pexels-max-rahubovskiy-6447390.jpg";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 function Eco() {
   const [isDragging, setIsDragging] = useState(false);
   const startPos = useRef(0);
@@ -111,11 +112,12 @@ function Eco() {
           onTouchMove={handleDragging}
         >
           {images.map((image, index) => (
-            <img
-              className="img_all"
+            <LazyLoadImage
               key={index}
-              src={image}
+              className="img_all"
+              src={image} // Предполагаем, что `image` - это строка URL. Если `image` является объектом, возможно, вам нужно будет использовать `image.url` или аналогичное свойство
               alt={`Image ${index}`}
+              effect="blur" // Добавляет эффект размытия при загрузке изображений
               onClick={() => selectImage(index)}
             />
           ))}
